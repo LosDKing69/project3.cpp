@@ -7,7 +7,56 @@
 //This program will implement and test four functions using pointers and dynamic memory allocation. 
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
+
+
+//--------------------------------------------------------------------------------------------------------------
+//#1 isSorted: Takes an array of integers and its size of arguements. 
+
+
+
+
+
+//---------------------------------------------------------------------------------------------------------------
+// #2 Chain: Uses reference parameters 
+
+double chain (int totalInches, int *feet, int *inches)
+{
+    *feet = totalInches/12;
+    *inches = totalInches%12;
+    
+    return *feet*11.95 + *inches*1.75;
+}
+//---------------------------------------------------------------------------------------------------------------
+ 
+//#3 grow:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//--------------------------------------------------------------------------------------------------------------
+
+//#4 subArray: Takes a new array and copys elements from the new array
+
+int *subArray (int *array, int start, int length)
+{
+int *result = duplicateArray(__________, ___________);
+return result;
+}
+//--------------------------------------------------------------------------------------------------------------
+
 
 int main(){
 
